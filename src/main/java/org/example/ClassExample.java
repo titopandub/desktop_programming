@@ -69,7 +69,7 @@ class Computer {
     }
 }
 
-public class Main {
+public class ClassExample {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
