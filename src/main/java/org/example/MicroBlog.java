@@ -3,7 +3,7 @@ package org.example;
 import java.util.Arrays;
 import java.util.List;
 
-public class Blog {
+public class MicroBlog {
     public static void main(String[] args) {
         Post firstPost = new Post();
         firstPost.setTitle("This is First Post");
@@ -24,7 +24,9 @@ public class Blog {
         );
 
         for (Post post : posts) {
-            post.show();
+            System.out.println("===========================================");
+            System.out.println(post.getTitle());
+            System.out.println(post.getContent());
         }
     }
 
@@ -48,11 +50,5 @@ class Post {
 
     public void setContent(String content) {
         this.content = content;
-    }
-
-    public void show() {
-        System.out.println("===========================================");
-        System.out.println(this.title);
-        System.out.println(this.content);
     }
 }

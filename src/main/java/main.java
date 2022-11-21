@@ -16,7 +16,7 @@ class Encapsulation {
     }
 }
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Encapsulation objek = new Encapsulation();
         objek.ModifNim(1420123);
